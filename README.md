@@ -82,3 +82,12 @@ To use KafkaStringProducer to send string messages to a Kafka topic, follow thes
 
    `producer.close();`
 
+
+#### ReadFromKafkaTopicAndSplit
+
+`ReadFromKafkaTopicAndSplit` is a Java application that demonstrates how to read messages from a Kafka topic, split them into different branches based on specific criteria, and send them to different output topics. This example uses the Apache Kafka Streams library to perform these operations.
+
+
+#### Usage
+`ReadFromKafkaTopicAndSplit` reads messages from a Kafka topic named `input-topic`. It splits these messages into different branches based on specific criteria and sends them to different output topics: `V, V2, and VALL`.
+
